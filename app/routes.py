@@ -1,8 +1,5 @@
-#import the Flask class from the flask module
-from flask import Flask 
 
-#Create an instance of the Flask class and give it the variable name 'app'
-app = Flask(__name__)
+from app import app 
 
 #Create a route using the @app.route to trigger function based on endpoint
 @app.route('/') 
